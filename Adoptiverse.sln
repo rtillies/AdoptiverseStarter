@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoptiverseAPI", "AdoptiverseAPI\AdoptiverseAPI.csproj", "{B58A3765-BE85-4A0E-B27C-313423AD4BB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoptiverseEndpointTests", "AdoptiverseEndpointTests\AdoptiverseEndpointTests.csproj", "{9ACD9501-4E83-44A8-A012-5761C3D209CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B58A3765-BE85-4A0E-B27C-313423AD4BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B58A3765-BE85-4A0E-B27C-313423AD4BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B58A3765-BE85-4A0E-B27C-313423AD4BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ACD9501-4E83-44A8-A012-5761C3D209CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ACD9501-4E83-44A8-A012-5761C3D209CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ACD9501-4E83-44A8-A012-5761C3D209CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ACD9501-4E83-44A8-A012-5761C3D209CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
