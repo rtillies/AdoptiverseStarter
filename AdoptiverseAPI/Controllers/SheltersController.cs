@@ -27,6 +27,18 @@ namespace AdoptiverseAPI.Controllers
             return new JsonResult(shelters);
         }
 
+        // The following endpoint will return pets for a specific shelter
+        [HttpGet("{id}/pets")]
+        public ActionResult GetShelterPets(int id)
+        {
+            var pets = _context
+                .Pets
+                .Include(p => p.Shelter)
+                .Where(p => p.Shelter.Id == id);
+
+            return new JsonResult(pets);
+        }
+
         [HttpGet("{id}")]
         public ActionResult GetShelter(int id)
         {

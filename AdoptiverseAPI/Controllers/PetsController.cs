@@ -16,6 +16,7 @@ namespace AdoptiverseAPI.Controllers
             _context = context;
         }
 
+        // The following enpoint will return pets regardless of Shelter
         [HttpGet]
         public ActionResult GetPets()
         {
